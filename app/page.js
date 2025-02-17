@@ -1,7 +1,11 @@
+import Navbar from "@/components/navbar";
+
 // page.js (Home)
 export default function HomePage() {
   return (
-    <div className="text-center p-6">
+    <div>
+      <Navbar/>
+      <div className="text-center p-6">
       <h1 className="text-4xl font-bold mb-4">Selamat Datang di UMKM APP</h1>
       <p className="text-lg text-gray-700 mb-6">Platform untuk mendukung usaha kecil dan menengah</p>
       
@@ -36,5 +40,6 @@ export default function HomePage() {
         </div>
       </div>
     </div>
-  );
+    </div>
+     );
 }
