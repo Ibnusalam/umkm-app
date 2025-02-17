@@ -1,4 +1,4 @@
-// components/Navbar.js
+// components/Navbar.js ibnu
 import Link from "next/link";
 
 export default function Navbar() {
